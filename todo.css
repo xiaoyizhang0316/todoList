@@ -1,0 +1,74 @@
+.visited{
+	text-decoration: line-through;
+	color:grey;
+}
+
+.todoItem{
+	height:30px;
+}
+body{
+	background-color: #7abbf4;
+	font-family: Roboto;
+	background: linear-gradient(to right, #005aa7, #fffde4);
+}
+input{
+	height: 30px;
+	padding: 13px 13px 13px 20px;
+	width:100%;
+	border-style: none;
+	background-color: #e8eaed;
+	box-sizing: border-box;
+	color: #2980b9;
+}
+
+.fa-plus{
+	float:right;
+}
+
+#container{
+	margin:10% auto;
+	width:25%;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+	background-color: #2980b9;
+	color:white;
+	margin:0;
+	padding: 10px 20px;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+
+li{
+	height:40px;
+	background-color: white;
+	line-height:40px;
+}
+
+li:nth-child(2){
+	background:#e8eaed;
+}
+ul{
+	list-style-type: none;
+	padding:0;
+	margin:0;
+	height:40px;
+}
+li:hover span{
+	width:40px;
+	opacity: 1;
+}
+.i1{
+	margin-right:20px;
+	text-align: center;
+	color:white;
+	width:0px;
+	height:40px;
+	background-color: red;
+	display:inline-block;
+	float:top;
+	transition: 0.8s;
+	opacity: 0;
+}
